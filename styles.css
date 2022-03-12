@@ -1,0 +1,79 @@
+
+., .::before, .::after{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap');
+
+body {
+    font-family: 'Open Sans', arial, sans-serif;
+}
+
+#nav {
+    margin-top: -20px;
+    height: 100vh;
+    min-width: 250px;
+    display: grid;
+    grid-template-rows: 2fr repeat(14, 1fr);
+    position: fixed;
+    border-right: 3px solid grey;
+    background-color: #ffffff;
+}
+
+#main {
+    
+    height: 100vh;
+    margin-left: 230px;
+    grid-template-rows: repeat(15, 1fr);
+}
+
+nav a {
+    border-top: 1px solid black;
+    text-decoration: none;
+    color: #4d4e53;
+    font-size: 16px;
+    padding-left: 2vh;
+    padding-top: 1vh;
+    margin-left: -10px;
+}
+
+nav h3 {
+    height: 100%;
+    text-align: center;
+    color: black;
+    font-size: 28.8px;
+    font-weight: 500;
+}
+
+.sub-title {
+    padding-left: 4vw;
+    font-weight: 500;
+    font-size: 28.8px;
+}
+
+.info {
+    margin: 4vw;
+    text-align: justify;
+    font-size: 15.3px;
+    font-weight: 400;
+    color: #4d4e53
+}
+
+.info li{
+    padding: 1vw;
+}
+
+.code {
+    background-color: #F7F7F7;
+    margin: 10px 80px;
+    padding: 15px;
+    border-radius: 5px;
+    color: #4d4e53;
+    font: monospace;
+    font-size: 12px;
+}
+
+.data-list{
+    margin-left: 6vw;
+}
